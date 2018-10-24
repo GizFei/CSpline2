@@ -1,0 +1,85 @@
+QWidget{
+    background: rgb(250, 250, 250);
+}
+
+QWidget#paintwindow {
+    background: white;
+    border: 1px solid #33B5E6;
+}
+
+
+
+QAbstractSpinBox{
+    border-radius: 4px;
+    border: 1px solid #33B5E6;
+    background-color: white;
+}
+
+QAbstractSpinBox::up-button{
+    image: url(":/icon/icons/up_arrow.png");
+    width: 30px;
+    border-left: 1px solid #33B5E6;
+    border-top-right-radius: 4px;
+    height: 20px;
+}
+
+QAbstractSpinBox::up-button:!enabled{
+    background-color: transparent;
+}
+
+QAbstractSpinBox::up-button:enabled:hover{
+    background: #F2F3F4;
+}
+
+QAbstractSpinBox::down-button{
+    image: url(":/icon/icons/down_arrow.png");
+    width: 30px;
+    border-left: 1px solid #33B5E6;
+    border-bottom-right-radius: 4px;
+    height: 20px;
+}
+
+QAbstractSpinBox::down-button:!enabled{
+    background-color: transparent;
+}
+
+QAbstractSpinBox::down-button:enabled:hover{
+    background: #F2F3F4;
+}
+
+QPushButton{
+    border-radius: 4px;
+    border: 1px solid #33B5E6;
+    background: #FFF;
+    color: #33B5E6;
+}
+
+QPushButton:hover{
+    background: #33B5E6;
+    color: white;
+}
+
+QCheckBox {
+    border: 1px solid #33B5E6;
+    border-radius: 4px;
+    background: #FFF;
+    color: #33B5E6;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: 1px solid #33B5E6;
+    border-radius: 4px;
+}
+
+QCheckBox::indicator:hover{
+    background-color: #F2F3F4;
+}
+
+QCheckBox::indicator::checked{
+    background-color: #33B5E6;
+}
+
